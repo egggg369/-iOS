@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.m
-//  第一天
+//  UILabel
 //
 //  Created by 郭红乐 on 2020/7/13.
 //  Copyright © 2020 无. All rights reserved.
@@ -24,7 +24,6 @@
     _window.rootViewController = viewController;
     [_window makeKeyAndVisible];
     
-
 }
 
 
