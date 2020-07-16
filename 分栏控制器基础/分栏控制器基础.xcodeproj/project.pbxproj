@@ -17,6 +17,9 @@
 		1827894D24BF31C400EDE252 /* VCFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827894C24BF31C400EDE252 /* VCFirst.m */; };
 		1827895024BF31E000EDE252 /* VCSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827894F24BF31E000EDE252 /* VCSecond.m */; };
 		1827895324BF31F600EDE252 /* VCThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 1827895224BF31F600EDE252 /* VCThird.m */; };
+		18E62CA124BFFE1500746E5C /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E62CA024BFFE1500746E5C /* FiveViewController.m */; };
+		18E62CA424BFFE2300746E5C /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E62CA324BFFE2300746E5C /* SixViewController.m */; };
+		18E62CA724BFFE3100746E5C /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E62CA624BFFE3100746E5C /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,12 @@
 		1827894F24BF31E000EDE252 /* VCSecond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCSecond.m; sourceTree = "<group>"; };
 		1827895124BF31F600EDE252 /* VCThird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCThird.h; sourceTree = "<group>"; };
 		1827895224BF31F600EDE252 /* VCThird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCThird.m; sourceTree = "<group>"; };
+		18E62C9F24BFFE1500746E5C /* FiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		18E62CA024BFFE1500746E5C /* FiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		18E62CA224BFFE2300746E5C /* SixViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		18E62CA324BFFE2300746E5C /* SixViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
+		18E62CA524BFFE3100746E5C /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		18E62CA624BFFE3100746E5C /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +122,12 @@
 				1827894C24BF31C400EDE252 /* VCFirst.m */,
 				1827894E24BF31E000EDE252 /* VCSecond.h */,
 				1827894F24BF31E000EDE252 /* VCSecond.m */,
+				18E62C9F24BFFE1500746E5C /* FiveViewController.h */,
+				18E62CA024BFFE1500746E5C /* FiveViewController.m */,
+				18E62CA224BFFE2300746E5C /* SixViewController.h */,
+				18E62CA324BFFE2300746E5C /* SixViewController.m */,
+				18E62CA524BFFE3100746E5C /* FourViewController.h */,
+				18E62CA624BFFE3100746E5C /* FourViewController.m */,
 				1827895124BF31F600EDE252 /* VCThird.h */,
 				1827895224BF31F600EDE252 /* VCThird.m */,
 				1827891F24BF30C900EDE252 /* Main.storyboard */,
@@ -272,7 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E62CA124BFFE1500746E5C /* FiveViewController.m in Sources */,
 				1827891824BF30C900EDE252 /* AppDelegate.m in Sources */,
+				18E62CA724BFFE3100746E5C /* FourViewController.m in Sources */,
+				18E62CA424BFFE2300746E5C /* SixViewController.m in Sources */,
 				1827895024BF31E000EDE252 /* VCSecond.m in Sources */,
 				1827895324BF31F600EDE252 /* VCThird.m in Sources */,
 				1827892924BF30D000EDE252 /* main.m in Sources */,
