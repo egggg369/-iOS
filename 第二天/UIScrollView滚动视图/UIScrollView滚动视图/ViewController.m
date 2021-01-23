@@ -9,6 +9,10 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+{
+    UIScrollView *_sv;
+    UIPageControl *_pc;
+}
 
 @end
 
@@ -20,29 +24,29 @@
     
     //定义并且创建一个滚动视图
     //可以对视图内容进行滚屏查看功能
-    UIScrollView* sv = [[UIScrollView alloc]init];
+    _sv = [[UIScrollView alloc]init];
     
     //设置滚动视图的位置，使用矩形来定位视图位置
-    sv.frame = CGRectMake(0, 0, 350, 589);
+    _sv.frame = CGRectMake(0, 0, 350, 589);
     
     //是否按照整页来滚动视图
-    sv.pagingEnabled = YES;
+    _sv.pagingEnabled = YES;
     //是否可以开启滚动效果
-    sv.scrollEnabled = YES;
+    _sv.scrollEnabled = YES;
     //设置画布的大小，画布显示在滚动视图内部，一般大于Frame的大小
-    sv.contentSize = CGSizeMake(350*5, 589);
+    _sv.contentSize = CGSizeMake(350*5, 589);
     //是否可以边缘弹动效果
-    sv.bounces = YES;
+    _sv.bounces = YES;
     //开启横向弹动效果
-    sv.alwaysBounceHorizontal = YES;
+    _sv.alwaysBounceHorizontal = YES;
     //开启纵向弹动效果
-    sv.alwaysBounceVertical = YES;
+    _sv.alwaysBounceVertical = YES;
     //显示横向滚动条
-    sv.showsHorizontalScrollIndicator = YES;
+    _sv.showsHorizontalScrollIndicator = YES;
     //是否实现纵向滚动条
-    sv.showsVerticalScrollIndicator = YES;
+    _sv.showsVerticalScrollIndicator = YES;
     //设置背景颜色
-    sv.backgroundColor = [UIColor yellowColor];
+    _sv.backgroundColor = [UIColor whiteColor];
     
     for(int i = 0; i < 5; i++) {
         NSString* strName = [NSString stringWithFormat:@"%d.jpeg",i+1];
@@ -51,12 +55,38 @@
         //加载图片到视图
         UIImageView* iView = [[UIImageView alloc]initWithImage:image];
         iView.frame = CGRectMake(350*i, 0, 350, 579);
-        [sv addSubview:iView];
+        [_sv addSubview:iView];
     }
     
-    [self.view addSubview:sv];
+    [self.view addSubview:_sv];
     
+    _pc = [[UIPageControl alloc] initWithFrame:CGRectMake(30, 500, 300, 30)];
+    _pc.backgroundColor = [UIColor clearColor];
+    //有几个小圆点
+    _pc.numberOfPages = 6;
+    //当前显示第几个
+    _pc.currentPage = 0;
+    //当前小圆点的颜色
+    _pc.currentPageIndicatorTintColor = [UIColor whiteColor];
+    //其他小圆点的颜色
+    //pc.pageIndicatorTintColor = [UIColor purpleColor];
+    
+    [_pc addTarget:self action:@selector(change:) forControlEvents:UIControlEventValueChanged];
+    
+    [self.view addSubview:_pc];
+    _sv.delegate =self;
 }
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    //开始滚动的方法
+    _pc.currentPage = _sv.contentOffset.x/350;
+}
+
+- (void)change:(UIPageControl *)pc
+{
+    [_sv setContentOffset:CGPointMake(_pc.currentPage * 350, 0) animated:YES];
+    
+}
 
 @end

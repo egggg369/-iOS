@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+
+target 'CocoaPodsTestMasonry2' do
+pod 'Masonry'
+end

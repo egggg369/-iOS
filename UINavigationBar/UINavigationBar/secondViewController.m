@@ -29,7 +29,7 @@
     //firstViewController* s = [[firstViewController alloc]init];
     //[self.navigationController pushViewController:s animated:YES];
     //pop对本机界面销毁，只能回到上一层
-    [self.navigationController popViewControllerAnimated:YES];
+    
 }
 
 /*

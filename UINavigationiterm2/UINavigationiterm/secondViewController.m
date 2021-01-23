@@ -26,15 +26,7 @@
     
 }
 
--(void) createUI
-{
-    UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 80, 40)];
-    button.backgroundColor = [UIColor redColor];
-    [button addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
-    
-    
-}
+
 
 - (void)click {
     //firstViewController* s = [[firstViewController alloc]init];

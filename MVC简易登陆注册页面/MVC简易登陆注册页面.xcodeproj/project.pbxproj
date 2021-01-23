@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187AA37B24E8EA53003C812C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AA37A24E8EA53003C812C /* AppDelegate.m */; };
+		187AA37E24E8EA53003C812C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AA37D24E8EA53003C812C /* SceneDelegate.m */; };
+		187AA38424E8EA53003C812C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187AA38224E8EA53003C812C /* Main.storyboard */; };
+		187AA38624E8EA5C003C812C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187AA38524E8EA5C003C812C /* Assets.xcassets */; };
+		187AA38924E8EA5C003C812C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187AA38724E8EA5C003C812C /* LaunchScreen.storyboard */; };
+		187AA38C24E8EA5C003C812C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AA38B24E8EA5C003C812C /* main.m */; };
+		187AA39624E8EA5D003C812C /* MVC________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AA39524E8EA5D003C812C /* MVC________Tests.m */; };
+		187AA3A124E8EA5D003C812C /* MVC________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AA3A024E8EA5D003C812C /* MVC________UITests.m */; };
+		187AA3B924E8EC54003C812C /* LandModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AA3B824E8EC54003C812C /* LandModel.m */; };
+		187AA41224E95CE2003C812C /* LandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AA41124E95CE2003C812C /* LandView.m */; };
+		187AA41424E98103003C812C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AA41324E98103003C812C /* ViewController.m */; };
+		187AA41724E9830A003C812C /* SuccessfullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AA41624E9830A003C812C /* SuccessfullViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187AA39224E8EA5C003C812C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187AA36E24E8EA52003C812C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187AA37524E8EA53003C812C;
+			remoteInfo = "MVC简易登陆注册页面";
+		};
+		187AA39D24E8EA5D003C812C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187AA36E24E8EA52003C812C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187AA37524E8EA53003C812C;
+			remoteInfo = "MVC简易登陆注册页面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187AA37624E8EA53003C812C /* MVC简易登陆注册页面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC简易登陆注册页面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187AA37924E8EA53003C812C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187AA37A24E8EA53003C812C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187AA37C24E8EA53003C812C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		187AA37D24E8EA53003C812C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		187AA37F24E8EA53003C812C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187AA38324E8EA53003C812C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187AA38524E8EA5C003C812C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187AA38824E8EA5C003C812C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187AA38A24E8EA5C003C812C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187AA38B24E8EA5C003C812C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187AA39124E8EA5C003C812C /* MVC简易登陆注册页面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVC简易登陆注册页面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187AA39524E8EA5D003C812C /* MVC________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MVC________Tests.m"; sourceTree = "<group>"; };
+		187AA39724E8EA5D003C812C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187AA39C24E8EA5D003C812C /* MVC简易登陆注册页面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVC简易登陆注册页面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187AA3A024E8EA5D003C812C /* MVC________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MVC________UITests.m"; sourceTree = "<group>"; };
+		187AA3A224E8EA5D003C812C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187AA3B724E8EC54003C812C /* LandModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandModel.h; sourceTree = "<group>"; };
+		187AA3B824E8EC54003C812C /* LandModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandModel.m; sourceTree = "<group>"; };
+		187AA41024E95CE2003C812C /* LandView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandView.h; sourceTree = "<group>"; };
+		187AA41124E95CE2003C812C /* LandView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandView.m; sourceTree = "<group>"; };
+		187AA41324E98103003C812C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187AA41524E98309003C812C /* SuccessfullViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuccessfullViewController.h; sourceTree = "<group>"; };
+		187AA41624E9830A003C812C /* SuccessfullViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuccessfullViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187AA37324E8EA53003C812C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AA38E24E8EA5C003C812C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AA39924E8EA5D003C812C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187AA36D24E8EA52003C812C = {
+			isa = PBXGroup;
+			children = (
+				187AA3BA24E90DB2003C812C /* M */,
+				187AA3BB24E90DD7003C812C /* V */,
+				187AA3BC24E90E03003C812C /* C */,
+				187AA37824E8EA53003C812C /* MVC简易登陆注册页面 */,
+				187AA39424E8EA5D003C812C /* MVC简易登陆注册页面Tests */,
+				187AA39F24E8EA5D003C812C /* MVC简易登陆注册页面UITests */,
+				187AA37724E8EA53003C812C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187AA37724E8EA53003C812C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187AA37624E8EA53003C812C /* MVC简易登陆注册页面.app */,
+				187AA39124E8EA5C003C812C /* MVC简易登陆注册页面Tests.xctest */,
+				187AA39C24E8EA5D003C812C /* MVC简易登陆注册页面UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187AA37824E8EA53003C812C /* MVC简易登陆注册页面 */ = {
+			isa = PBXGroup;
+			children = (
+				187AA37924E8EA53003C812C /* AppDelegate.h */,
+				187AA37A24E8EA53003C812C /* AppDelegate.m */,
+				187AA37C24E8EA53003C812C /* SceneDelegate.h */,
+				187AA37D24E8EA53003C812C /* SceneDelegate.m */,
+				187AA38224E8EA53003C812C /* Main.storyboard */,
+				187AA38524E8EA5C003C812C /* Assets.xcassets */,
+				187AA38724E8EA5C003C812C /* LaunchScreen.storyboard */,
+				187AA38A24E8EA5C003C812C /* Info.plist */,
+				187AA38B24E8EA5C003C812C /* main.m */,
+			);
+			path = "MVC简易登陆注册页面";
+			sourceTree = "<group>";
+		};
+		187AA39424E8EA5D003C812C /* MVC简易登陆注册页面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				187AA39524E8EA5D003C812C /* MVC________Tests.m */,
+				187AA39724E8EA5D003C812C /* Info.plist */,
+			);
+			path = "MVC简易登陆注册页面Tests";
+			sourceTree = "<group>";
+		};
+		187AA39F24E8EA5D003C812C /* MVC简易登陆注册页面UITests */ = {
+			isa = PBXGroup;
+			children = (
+				187AA3A024E8EA5D003C812C /* MVC________UITests.m */,
+				187AA3A224E8EA5D003C812C /* Info.plist */,
+			);
+			path = "MVC简易登陆注册页面UITests";
+			sourceTree = "<group>";
+		};
+		187AA3BA24E90DB2003C812C /* M */ = {
+			isa = PBXGroup;
+			children = (
+				187AA3B724E8EC54003C812C /* LandModel.h */,
+				187AA3B824E8EC54003C812C /* LandModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		187AA3BB24E90DD7003C812C /* V */ = {
+			isa = PBXGroup;
+			children = (
+				187AA41024E95CE2003C812C /* LandView.h */,
+				187AA41124E95CE2003C812C /* LandView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		187AA3BC24E90E03003C812C /* C */ = {
+			isa = PBXGroup;
+			children = (
+				187AA37F24E8EA53003C812C /* ViewController.h */,
+				187AA41324E98103003C812C /* ViewController.m */,
+				187AA41524E98309003C812C /* SuccessfullViewController.h */,
+				187AA41624E9830A003C812C /* SuccessfullViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187AA37524E8EA53003C812C /* MVC简易登陆注册页面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187AA3A524E8EA5D003C812C /* Build configuration list for PBXNativeTarget "MVC简易登陆注册页面" */;
+			buildPhases = (
+				187AA37224E8EA53003C812C /* Sources */,
+				187AA37324E8EA53003C812C /* Frameworks */,
+				187AA37424E8EA53003C812C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVC简易登陆注册页面";
+			productName = "MVC简易登陆注册页面";
+			productReference = 187AA37624E8EA53003C812C /* MVC简易登陆注册页面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187AA39024E8EA5C003C812C /* MVC简易登陆注册页面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187AA3A824E8EA5D003C812C /* Build configuration list for PBXNativeTarget "MVC简易登陆注册页面Tests" */;
+			buildPhases = (
+				187AA38D24E8EA5C003C812C /* Sources */,
+				187AA38E24E8EA5C003C812C /* Frameworks */,
+				187AA38F24E8EA5C003C812C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187AA39324E8EA5C003C812C /* PBXTargetDependency */,
+			);
+			name = "MVC简易登陆注册页面Tests";
+			productName = "MVC简易登陆注册页面Tests";
+			productReference = 187AA39124E8EA5C003C812C /* MVC简易登陆注册页面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187AA39B24E8EA5D003C812C /* MVC简易登陆注册页面UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187AA3AB24E8EA5D003C812C /* Build configuration list for PBXNativeTarget "MVC简易登陆注册页面UITests" */;
+			buildPhases = (
+				187AA39824E8EA5D003C812C /* Sources */,
+				187AA39924E8EA5D003C812C /* Frameworks */,
+				187AA39A24E8EA5D003C812C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187AA39E24E8EA5D003C812C /* PBXTargetDependency */,
+			);
+			name = "MVC简易登陆注册页面UITests";
+			productName = "MVC简易登陆注册页面UITests";
+			productReference = 187AA39C24E8EA5D003C812C /* MVC简易登陆注册页面UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187AA36E24E8EA52003C812C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "无";
+				TargetAttributes = {
+					187AA37524E8EA53003C812C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					187AA39024E8EA5C003C812C = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 187AA37524E8EA53003C812C;
+					};
+					187AA39B24E8EA5D003C812C = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 187AA37524E8EA53003C812C;
+					};
+				};
+			};
+			buildConfigurationList = 187AA37124E8EA52003C812C /* Build configuration list for PBXProject "MVC简易登陆注册页面" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187AA36D24E8EA52003C812C;
+			productRefGroup = 187AA37724E8EA53003C812C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187AA37524E8EA53003C812C /* MVC简易登陆注册页面 */,
+				187AA39024E8EA5C003C812C /* MVC简易登陆注册页面Tests */,
+				187AA39B24E8EA5D003C812C /* MVC简易登陆注册页面UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187AA37424E8EA53003C812C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187AA38924E8EA5C003C812C /* LaunchScreen.storyboard in Resources */,
+				187AA38624E8EA5C003C812C /* Assets.xcassets in Resources */,
+				187AA38424E8EA53003C812C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AA38F24E8EA5C003C812C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AA39A24E8EA5D003C812C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187AA37224E8EA53003C812C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187AA41424E98103003C812C /* ViewController.m in Sources */,
+				187AA37B24E8EA53003C812C /* AppDelegate.m in Sources */,
+				187AA38C24E8EA5C003C812C /* main.m in Sources */,
+				187AA37E24E8EA53003C812C /* SceneDelegate.m in Sources */,
+				187AA3B924E8EC54003C812C /* LandModel.m in Sources */,
+				187AA41724E9830A003C812C /* SuccessfullViewController.m in Sources */,
+				187AA41224E95CE2003C812C /* LandView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AA38D24E8EA5C003C812C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187AA39624E8EA5D003C812C /* MVC________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187AA39824E8EA5D003C812C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187AA3A124E8EA5D003C812C /* MVC________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187AA39324E8EA5C003C812C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187AA37524E8EA53003C812C /* MVC简易登陆注册页面 */;
+			targetProxy = 187AA39224E8EA5C003C812C /* PBXContainerItemProxy */;
+		};
+		187AA39E24E8EA5D003C812C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187AA37524E8EA53003C812C /* MVC简易登陆注册页面 */;
+			targetProxy = 187AA39D24E8EA5D003C812C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187AA38224E8EA53003C812C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187AA38324E8EA53003C812C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187AA38724E8EA5C003C812C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187AA38824E8EA5C003C812C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187AA3A324E8EA5D003C812C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187AA3A424E8EA5D003C812C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187AA3A624E8EA5D003C812C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVC简易登陆注册页面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.MVC--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187AA3A724E8EA5D003C812C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVC简易登陆注册页面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.MVC--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		187AA3A924E8EA5D003C812C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVC简易登陆注册页面Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.MVC--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVC简易登陆注册页面.app/MVC简易登陆注册页面";
+			};
+			name = Debug;
+		};
+		187AA3AA24E8EA5D003C812C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVC简易登陆注册页面Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.MVC--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVC简易登陆注册页面.app/MVC简易登陆注册页面";
+			};
+			name = Release;
+		};
+		187AA3AC24E8EA5D003C812C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVC简易登陆注册页面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.MVC--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVC简易登陆注册页面";
+			};
+			name = Debug;
+		};
+		187AA3AD24E8EA5D003C812C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVC简易登陆注册页面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.MVC--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVC简易登陆注册页面";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187AA37124E8EA52003C812C /* Build configuration list for PBXProject "MVC简易登陆注册页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187AA3A324E8EA5D003C812C /* Debug */,
+				187AA3A424E8EA5D003C812C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187AA3A524E8EA5D003C812C /* Build configuration list for PBXNativeTarget "MVC简易登陆注册页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187AA3A624E8EA5D003C812C /* Debug */,
+				187AA3A724E8EA5D003C812C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187AA3A824E8EA5D003C812C /* Build configuration list for PBXNativeTarget "MVC简易登陆注册页面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187AA3A924E8EA5D003C812C /* Debug */,
+				187AA3AA24E8EA5D003C812C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187AA3AB24E8EA5D003C812C /* Build configuration list for PBXNativeTarget "MVC简易登陆注册页面UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187AA3AC24E8EA5D003C812C /* Debug */,
+				187AA3AD24E8EA5D003C812C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187AA36E24E8EA52003C812C /* Project object */;
+}

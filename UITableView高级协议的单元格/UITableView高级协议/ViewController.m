@@ -128,7 +128,7 @@
     cell.detailTextLabel.text = @"子标题";
     
     //设置默认的图标信息
-    NSString* str = [NSString stringWithFormat:@"%ld.png",indexPath.row % 6+1];
+    NSString* str = [NSString stringWithFormat:@"%ld.png",indexPath.row % 6+11];
     
     UIImage* image = [UIImage imageNamed:str];
     

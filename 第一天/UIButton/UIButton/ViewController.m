@@ -19,7 +19,7 @@
     //创建一个btn对象，根据类型来创建btn
     //圆角类型btn:UIButtonTypeRoundedRect
     //通过类方法来创建buttonWith
-    UIButton* btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    UIButton* btn = [UIButton buttonWithType:UIButtonTypeSystem];
     
     //设置button按钮的位置
     btn.frame = CGRectMake(100, 100, 100, 40);

@@ -20,12 +20,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor colorWithRed:0.21 green:0.57 blue:0.80 alpha:1.00];
+ 
     
     //创建一个文本输入区对象
     self.textField = [[UITextField alloc]init];
     
     //设定文本输入区的位置
     self.textField.frame = CGRectMake(100, 100, 100, 40);
+    self.
     
     //设置textField的内容文字
     self.textField.text = @"用户名";
@@ -61,12 +64,13 @@
     //NO普通显示输入
     self.textField.secureTextEntry = YES;
     
-    [self.view addSubview:_textField];
+    [self.view addSubview:self.textField];
     
     //设置代理对象
     self.textField.delegate = self;
 }
 
+//点击屏幕空白处时收回
 - (void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     //使虚拟键盘回收，不再作为第一消息响应者
     [self.textField resignFirstResponder];
@@ -79,7 +83,7 @@
 }
 
 - (void) textFieldDidEndEditing:(UITextField *)textField {
-    self.textField.text = @"";
+    //self.textField.text = @"";
     NSLog(@"编辑输入结束！");
 }
 

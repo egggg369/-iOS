@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184F72D924D4302200481472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72D824D4302200481472 /* AppDelegate.m */; };
+		184F72DC24D4302200481472 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72DB24D4302200481472 /* SceneDelegate.m */; };
+		184F72DF24D4302200481472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72DE24D4302200481472 /* ViewController.m */; };
+		184F72E224D4302200481472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184F72E024D4302200481472 /* Main.storyboard */; };
+		184F72E424D4302800481472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184F72E324D4302800481472 /* Assets.xcassets */; };
+		184F72E724D4302800481472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184F72E524D4302800481472 /* LaunchScreen.storyboard */; };
+		184F72EA24D4302800481472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72E924D4302800481472 /* main.m */; };
+		184F72F424D4302800481472 /* cell_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72F324D4302800481472 /* cell_____Tests.m */; };
+		184F72FF24D4302800481472 /* cell_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72FE24D4302800481472 /* cell_____UITests.m */; };
+		184F730E24D4358100481472 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F730D24D4358100481472 /* Status.m */; };
+		184F731124D435D500481472 /* StatusesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F731024D435D500481472 /* StatusesTableViewCell.m */; };
+		184F731424D4390500481472 /* StatusesFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F731324D4390500481472 /* StatusesFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184F72F024D4302800481472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184F72CC24D4302100481472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184F72D324D4302100481472;
+			remoteInfo = "cell自适应高度";
+		};
+		184F72FB24D4302800481472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184F72CC24D4302100481472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184F72D324D4302100481472;
+			remoteInfo = "cell自适应高度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184F72D424D4302100481472 /* cell自适应高度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cell自适应高度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F72D724D4302200481472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184F72D824D4302200481472 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184F72DA24D4302200481472 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		184F72DB24D4302200481472 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		184F72DD24D4302200481472 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184F72DE24D4302200481472 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184F72E124D4302200481472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184F72E324D4302800481472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184F72E624D4302800481472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184F72E824D4302800481472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F72E924D4302800481472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184F72EF24D4302800481472 /* cell自适应高度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell自适应高度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F72F324D4302800481472 /* cell_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cell_____Tests.m"; sourceTree = "<group>"; };
+		184F72F524D4302800481472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F72FA24D4302800481472 /* cell自适应高度UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell自适应高度UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F72FE24D4302800481472 /* cell_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cell_____UITests.m"; sourceTree = "<group>"; };
+		184F730024D4302800481472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F730C24D4358100481472 /* Status.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		184F730D24D4358100481472 /* Status.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		184F730F24D435D500481472 /* StatusesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusesTableViewCell.h; sourceTree = "<group>"; };
+		184F731024D435D500481472 /* StatusesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusesTableViewCell.m; sourceTree = "<group>"; };
+		184F731224D4390500481472 /* StatusesFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusesFrame.h; sourceTree = "<group>"; };
+		184F731324D4390500481472 /* StatusesFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusesFrame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184F72D124D4302100481472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F72EC24D4302800481472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F72F724D4302800481472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184F72CB24D4302100481472 = {
+			isa = PBXGroup;
+			children = (
+				184F72D624D4302100481472 /* cell自适应高度 */,
+				184F72F224D4302800481472 /* cell自适应高度Tests */,
+				184F72FD24D4302800481472 /* cell自适应高度UITests */,
+				184F72D524D4302100481472 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184F72D524D4302100481472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184F72D424D4302100481472 /* cell自适应高度.app */,
+				184F72EF24D4302800481472 /* cell自适应高度Tests.xctest */,
+				184F72FA24D4302800481472 /* cell自适应高度UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184F72D624D4302100481472 /* cell自适应高度 */ = {
+			isa = PBXGroup;
+			children = (
+				184F72D724D4302200481472 /* AppDelegate.h */,
+				184F72D824D4302200481472 /* AppDelegate.m */,
+				184F72DA24D4302200481472 /* SceneDelegate.h */,
+				184F72DB24D4302200481472 /* SceneDelegate.m */,
+				184F72DD24D4302200481472 /* ViewController.h */,
+				184F72DE24D4302200481472 /* ViewController.m */,
+				184F730C24D4358100481472 /* Status.h */,
+				184F730D24D4358100481472 /* Status.m */,
+				184F731224D4390500481472 /* StatusesFrame.h */,
+				184F731324D4390500481472 /* StatusesFrame.m */,
+				184F730F24D435D500481472 /* StatusesTableViewCell.h */,
+				184F731024D435D500481472 /* StatusesTableViewCell.m */,
+				184F72E024D4302200481472 /* Main.storyboard */,
+				184F72E324D4302800481472 /* Assets.xcassets */,
+				184F72E524D4302800481472 /* LaunchScreen.storyboard */,
+				184F72E824D4302800481472 /* Info.plist */,
+				184F72E924D4302800481472 /* main.m */,
+			);
+			path = "cell自适应高度";
+			sourceTree = "<group>";
+		};
+		184F72F224D4302800481472 /* cell自适应高度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				184F72F324D4302800481472 /* cell_____Tests.m */,
+				184F72F524D4302800481472 /* Info.plist */,
+			);
+			path = "cell自适应高度Tests";
+			sourceTree = "<group>";
+		};
+		184F72FD24D4302800481472 /* cell自适应高度UITests */ = {
+			isa = PBXGroup;
+			children = (
+				184F72FE24D4302800481472 /* cell_____UITests.m */,
+				184F730024D4302800481472 /* Info.plist */,
+			);
+			path = "cell自适应高度UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184F72D324D4302100481472 /* cell自适应高度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184F730324D4302800481472 /* Build configuration list for PBXNativeTarget "cell自适应高度" */;
+			buildPhases = (
+				184F72D024D4302100481472 /* Sources */,
+				184F72D124D4302100481472 /* Frameworks */,
+				184F72D224D4302100481472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cell自适应高度";
+			productName = "cell自适应高度";
+			productReference = 184F72D424D4302100481472 /* cell自适应高度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184F72EE24D4302800481472 /* cell自适应高度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184F730624D4302800481472 /* Build configuration list for PBXNativeTarget "cell自适应高度Tests" */;
+			buildPhases = (
+				184F72EB24D4302800481472 /* Sources */,
+				184F72EC24D4302800481472 /* Frameworks */,
+				184F72ED24D4302800481472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184F72F124D4302800481472 /* PBXTargetDependency */,
+			);
+			name = "cell自适应高度Tests";
+			productName = "cell自适应高度Tests";
+			productReference = 184F72EF24D4302800481472 /* cell自适应高度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184F72F924D4302800481472 /* cell自适应高度UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184F730924D4302800481472 /* Build configuration list for PBXNativeTarget "cell自适应高度UITests" */;
+			buildPhases = (
+				184F72F624D4302800481472 /* Sources */,
+				184F72F724D4302800481472 /* Frameworks */,
+				184F72F824D4302800481472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184F72FC24D4302800481472 /* PBXTargetDependency */,
+			);
+			name = "cell自适应高度UITests";
+			productName = "cell自适应高度UITests";
+			productReference = 184F72FA24D4302800481472 /* cell自适应高度UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184F72CC24D4302100481472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "无";
+				TargetAttributes = {
+					184F72D324D4302100481472 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					184F72EE24D4302800481472 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 184F72D324D4302100481472;
+					};
+					184F72F924D4302800481472 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 184F72D324D4302100481472;
+					};
+				};
+			};
+			buildConfigurationList = 184F72CF24D4302100481472 /* Build configuration list for PBXProject "cell自适应高度" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184F72CB24D4302100481472;
+			productRefGroup = 184F72D524D4302100481472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184F72D324D4302100481472 /* cell自适应高度 */,
+				184F72EE24D4302800481472 /* cell自适应高度Tests */,
+				184F72F924D4302800481472 /* cell自适应高度UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184F72D224D4302100481472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F72E724D4302800481472 /* LaunchScreen.storyboard in Resources */,
+				184F72E424D4302800481472 /* Assets.xcassets in Resources */,
+				184F72E224D4302200481472 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F72ED24D4302800481472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F72F824D4302800481472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184F72D024D4302100481472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F72DF24D4302200481472 /* ViewController.m in Sources */,
+				184F731124D435D500481472 /* StatusesTableViewCell.m in Sources */,
+				184F72D924D4302200481472 /* AppDelegate.m in Sources */,
+				184F72EA24D4302800481472 /* main.m in Sources */,
+				184F730E24D4358100481472 /* Status.m in Sources */,
+				184F72DC24D4302200481472 /* SceneDelegate.m in Sources */,
+				184F731424D4390500481472 /* StatusesFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F72EB24D4302800481472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F72F424D4302800481472 /* cell_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F72F624D4302800481472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F72FF24D4302800481472 /* cell_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184F72F124D4302800481472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184F72D324D4302100481472 /* cell自适应高度 */;
+			targetProxy = 184F72F024D4302800481472 /* PBXContainerItemProxy */;
+		};
+		184F72FC24D4302800481472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184F72D324D4302100481472 /* cell自适应高度 */;
+			targetProxy = 184F72FB24D4302800481472 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184F72E024D4302200481472 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184F72E124D4302200481472 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184F72E524D4302800481472 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184F72E624D4302800481472 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184F730124D4302800481472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184F730224D4302800481472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184F730424D4302800481472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cell自适应高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.cell-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184F730524D4302800481472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cell自适应高度/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.cell-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184F730724D4302800481472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cell自适应高度Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.cell-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cell自适应高度.app/cell自适应高度";
+			};
+			name = Debug;
+		};
+		184F730824D4302800481472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cell自适应高度Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.cell-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cell自适应高度.app/cell自适应高度";
+			};
+			name = Release;
+		};
+		184F730A24D4302800481472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cell自适应高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.cell-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cell自适应高度";
+			};
+			name = Debug;
+		};
+		184F730B24D4302800481472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cell自适应高度UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.cell-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cell自适应高度";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184F72CF24D4302100481472 /* Build configuration list for PBXProject "cell自适应高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F730124D4302800481472 /* Debug */,
+				184F730224D4302800481472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184F730324D4302800481472 /* Build configuration list for PBXNativeTarget "cell自适应高度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F730424D4302800481472 /* Debug */,
+				184F730524D4302800481472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184F730624D4302800481472 /* Build configuration list for PBXNativeTarget "cell自适应高度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F730724D4302800481472 /* Debug */,
+				184F730824D4302800481472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184F730924D4302800481472 /* Build configuration list for PBXNativeTarget "cell自适应高度UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F730A24D4302800481472 /* Debug */,
+				184F730B24D4302800481472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184F72CC24D4302100481472 /* Project object */;
+}
